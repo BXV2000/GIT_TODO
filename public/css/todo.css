@@ -1,0 +1,92 @@
+#hiddenID {
+  display: none;
+}
+
+h1 {
+  margin: 10px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+button {
+  background-color: white;
+  border-radius: 30px;
+  border: 1px black solid;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.todo_app_background {
+  background-color: wheat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.todo_app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 400px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.input_todo {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.todo_item {
+  width: 100vw;
+  max-width: 300px;
+  max-height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.todo_item_left {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  margin-left: 20px;
+}
+
+/* .todo_item_left > p {
+  margin-bottom: 15px;
+} */
+
+.todo_item_left > h2 {
+  margin: 0;
+}
+
+.todo_item_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50px;
+  width: 20vw;
+  margin-right: 30px;
+}
+
+.todo_item_right > * {
+  margin: 5px;
+}
+
+.todo_item_right > form > button {
+  width: 100px;
+}
